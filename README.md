@@ -1,8 +1,24 @@
 # Online Resume Builder using Django
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 Welcome to the Online Resume Builder using Django project! This web application allows users to easily create professional resumes by filling out a form with their personal information, educational background, skills, work experience, and more. The generated resume can be downloaded as a PDF, ensuring high-quality output for job applications or personal use.
+
+## Tech stack
+
+<div style="dispaly:flex;">
+<img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="Python" width="40" height="40"/> 
+
+<img src="https://static.djangoproject.com/img/logos/django-logo-negative.svg" alt="Django" width="40" height="40"/> 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" width="40" height="40"/> 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS" width="40" height="40"/> 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JS" width="40" height="40"/> 
+</div>
+
+## Demo
+
+https://poulasthamukherjee.pythonanywhere.com/
 
 ## Features
 
@@ -17,20 +33,31 @@ Welcome to the Online Resume Builder using Django project! This web application 
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
-`git clone <repository-url>`
 
+```bash
+git clone https://github.com/PoulasthaMukherjee/Online-Resume-Builder
+```
 
 2. Install the required dependencies:
-`pip install -r requirements.txt`
+
+```bash
+pip install -r requirements.txt
+```
 
 
 3. Apply migrations:
-`python manage.py makemigrations`
-`python manage.py migrate`
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
 
 
 4. Run the development server:
-`python manage.py runserver`
+
+```bash
+python manage.py runserver
+```
 
 
 ## Usage
@@ -39,19 +66,3 @@ To set up the project locally, follow these steps:
 2. Fill out the form with your personal information, educational background, skills, work experience, projects, and achievements.
 3. Click the "Submit" button to generate your resume.
 4. Review and download your resume in PDF format.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
-
-- Fork the repository.
-- Create a new branch (`git checkout -b feature-branch`).
-- Make your changes and commit them (`git commit -am 'Add new feature'`).
-- Push to the branch (`git push origin feature-branch`).
-- Create a new Pull Request.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE.txt](LICENSE.txt) file for details.
-
-### Built with Django, HTML, CSS, and JavaScript.
