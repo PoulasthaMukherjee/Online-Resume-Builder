@@ -18,7 +18,7 @@ Welcome to the Online Resume Builder using Django project! This web application 
 
 ## Demo
 
-![LiveChat Demo](https://poulasthamukherjee.pythonanywhere.com/)
+[Live Demo](https://poulasthamukherjee.pythonanywhere.com/)
 
 ## Features
 
