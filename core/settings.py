@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h&k7%_fo14ju=mhjykh^nqxpwp5suer^$6(quy@ve@9o0=vpse
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = 'live-chat-online.azurewebsites.net'
+ALLOWED_HOSTS = []
 
 
 # Application definition
